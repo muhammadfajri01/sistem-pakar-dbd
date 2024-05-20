@@ -12,29 +12,19 @@
       <header class="bg-primary text-light">
         <nav class="navbar bg-danger">
           <div class="container-lg">
-            <a class="navbar-brand text-light">Cek DBD</a>
+            <a class="navbar-brand text-light">Navbar</a>
             <nav class="nav text-light">
-              <a class="nav-link text-light fw-bold" href="/index.html">Home</a>
-              <a class="nav-link text-light fw-bold" href="/about.html">About</a>
+              <a class="nav-link text-light" href="/index.html">Home</a>
+              <a class="nav-link text-light" href="/about.html">About</a>
             </nav>
           </div>
         </nav>
       </header>
       <div class="container align-content-center">
-        <div class="row align-items-center">
-          <div class="px-5 col-6 text-white">
-            <h2 class="pb-2">Sistem Pakar Diaganosis Penyakit Demam Berdarah</h2>
-            <p class="lh-sm">
-              Demam Berdarah Dengue (DBD) adalah penyakit infeksi yang disebabkan oleh virus Dengue, ditularkan melalui gigitan nyamuk Aedes aegypti dan Aedes albopictus. Gejala utamanya meliputi demam tinggi mendadak, sakit kepala parah,
-              nyeri otot dan sendi, serta munculnya ruam kemerahan pada kulit. <br />
-              <br />
-              Untuk mengetahui apakah anda terkena demam berdarah, silahkan klik tombol dibawah ini!
-            </p>
-            <a href="/diagnosis.html" class="btn btn-danger btn-lg">Diagnosis Sekarang</a>
-          </div>
-          <div class="px-5 col-6">
-            <img src="img/dbd.png" alt="" class="img-fluid rounded mx-auto d-block" />
-          </div>
+        <div class="row mx-1 justify-content-center">
+          <div id="gejala-container" class="w-50 h-50 align-self-center mb-2 mt-2"></div>
+          <div id="hasil-diagnosa"></div>
+          <button id="ulangi" class="btn btn-success row w-25 p-3 mt-5" onclick="resetGejala()">Ulangi</button>
         </div>
       </div>
       <footer class="py-3 b text-center text-light bg-danger">made by kelompok ?</footer>

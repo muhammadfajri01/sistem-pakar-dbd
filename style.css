@@ -9,13 +9,17 @@ h1 {
   text-align: center;
 }
 .container {
-  height: 93vh;
+  height: 88.5vh;
 }
 
 #gejala-container {
   width: 300px;
   margin: auto;
 }
+
+/* #about-container {
+  background-color: bisque;
+} */
 
 .gejala-item {
   margin-bottom: 10px;
