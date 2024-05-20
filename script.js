@@ -25,7 +25,13 @@ function tampilkanGejala() {
         </div>
       `;
   } else {
-    cekDiagnosa();
+    let count = gejala.filter((g) => g.nilai).length;
+
+    if (count >= 6) {
+      Swal.fire("Anda kemungkinan besar terkena DBD.");
+    } else {
+      Swal.fire("Anda mungkin tidak terkena DBD.");
+    }
   }
 }
 
