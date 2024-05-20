@@ -5,30 +5,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1 {
-  text-align: center;
-}
-.container {
-  height: 88.5vh;
-}
-
-#gejala-container {
-  width: 300px;
-  margin: auto;
-}
-
-/* #about-container {
-  background-color: bisque;
-} */
-
-.gejala-item {
-  margin-bottom: 10px;
-}
-
-.gejala-item span {
-  margin-right: 10px;
-}
-
-.gejala-item button {
-  padding: 5px 10px;
-}
